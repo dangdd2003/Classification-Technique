@@ -29,7 +29,7 @@ colors = iris_df["target"].replace(
 )
 plt.scatter(x[:, 0], x[:, 1], c=colors)
 
-# plt.show()
+plt.show()
 
 y.replace(to_replace=[0, 1, 2], value=[0, 1, 1], inplace=True)
 # print(y)
